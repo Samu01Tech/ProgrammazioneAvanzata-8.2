@@ -12,5 +12,11 @@ int main() {
     sp.insert(p);
     cout << sp << endl;
     */
-    
+    Gruppo g;
+    Persona p1("Mario");
+    Persona p2("Giovanna");
+    g.addPersona1(p1);
+    g.addPersona2(p2);
+    g.addPersona3("Luca");
+    cout << g << endl;
 } 

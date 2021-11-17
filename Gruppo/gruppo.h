@@ -22,6 +22,10 @@ class Gruppo{
             //sp.insert(_nome);//senza explicit nel metodo Persona()
             sp.insert(Persona(_nome));
         };
+        void addPersona(Persona* pp){
+            spp.insert(pp);
+        };
+        friend ostream& operator<<(ostream& os, const Gruppo& g);
 };
-
+ostream& operator<<(ostream& os, const Gruppo& g);
 #endif
