@@ -10,7 +10,7 @@ class Persona{
         string nome;
     public:
         Persona();
-        Persona(string _nome);
+        explicit Persona(string _nome);
         Persona(const Persona& p);
         ~Persona();
         friend ostream& operator<<(ostream& os, const Persona& p);
